@@ -1,25 +1,28 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Styled HTML Page | vtucode</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My First Web Page</title>
 </head>
 <body>
-<h2>Main Heading</h2>
-<h3>Subheading</h3>
+<marquee>Basic HTML Tags</marquee>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>This is a paragraph.</p>
 <hr>
-<p>This is a paragraph demonstrating the basic text styling applied by CSS.</p>
-<div>
-we can also use
-</div>
-This is a styled <strong>div</strong> element with padding and a light border. Inside the div,
-<span>span elements</span> that have their own styles, like this bold and orange text.
-<p>Current time: <time>10:30 AM</time></p>
-<img src="https://vtucode.in/wp-content/uploads/2024/08/Web-Technology-Lab.jpg"
-alt="Placeholder Image">
-<p>Visit <a href="https://vtucode.in">vtucode.in</a> to learn more about our services.</p>
-<p class="highlight">This paragraph is highlighted with a yellow background.</p>
-<p class="center">This text is centered using a class selector.</p>
-<p id="special-paragraph">This is a special paragraph with unique styles applied through an
-ID selector.</p>
+<p>This is a paragraph with a <br> line break.</p>
+<blockquote>
+"This is a block quote."
+</blockquote>
+<pre>
+This is a pre-formatted text.
+</pre>
+<strong>This is a strong text.</strong>
+<em>This is an emphasized text.</em>
 </body>
 </html>
