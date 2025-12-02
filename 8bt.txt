@@ -1,0 +1,16 @@
+php -m | findstr mysqli (In VS Code Terminal)
+mysql -u root -p
+mysql> SHOW DATABASES;
+USE students;
+CREATE TABLE students (
+id INT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+usn VARCHAR(50) NOT NULL,
+branch VARCHAR(50),
+email VARCHAR(100),
+address VARCHAR(255)
+);
+INSERT INTO students (id, name, usn, branch, email, address) VALUES
+(1, 'Alice', '1RV19CS001', 'CSE', 'alice@example.com', '123 Wonderland Ave'),
+(2, 'Bob', '1RV19CS002', 'ECE', 'bob@example.com', '456 Nowhere St'),
+(3, 'Charlie', '1RV19CS003', 'ME', 'charlie@example.com', '789 Elm St');
